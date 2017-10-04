@@ -3,7 +3,15 @@
 %-------------------------------------------------------------------------------
 \cvsection{Compétences}
 
-
+\begin{figure}[htb]
+ \centering
+   \begin{tikzpicture}
+	\fill[left color=awesome-yellow, right color=awesome-red] (0,0) rectangle (5,0.1);
+	   \node[above] at (0,0.1) {Bon niveau};
+	   \node[above] at (2.5,0.1) {Niveau avancé};
+	   \node[above] at (5,0.06) {Expert};
+   \end{tikzpicture}
+\end{figure}
 %-------------------------------------------------------------------------------
 %	CONTENT
 %-------------------------------------------------------------------------------
@@ -12,37 +20,37 @@
 %---------------------------------------------------------
   \cvskill
     {Systèmes} % Category
-	{\good{Expert UNIX}, Debian, Ubuntu, NixOS, LDAP, PGSQL, Puppet, Ansible, Active Directory} % Skills
+	{\expert{UNIX}, \expert{Debian}, \expert{Ubuntu}, \good{Red Hat}, \good{CentOS}, \good{NixOS}, \avanced{LDAP}, \good{PGSQL}, \expert{Puppet}, \good{Ansible}, \good{Active Directory}} % Skills
 
 %---------------------------------------------------------
   \cvskill
     {Virtualisation } % Category
-    {Xen, Proxmox, Docker, OpenStack, Kubernetes, Helm, KVM, LXC} % Skills
+	{\expert{Xen}, \expert{Proxmox}, \expert{Docker}, \good{OpenStack}, \good{Kubernetes}, \good{Helm}, \avanced{KVM}, \avanced{LXC}} % Skills
 
 %---------------------------------------------------------
   \cvskill
     {Réseau} % Category
-	{Cisco, Cisco ACI (SDN), HP, IPV6} % Skills
+	{\expert{Cisco ACI (SDN)}, \avanced{HP}, \good{IPV6}} % Skills
 
 %---------------------------------------------------------
   \cvskill
     {Programmation} % Category
-    {Python, C/C++, JAVA, LaTeX} % Skills
+	{\expert{Python}, \good{C/C++}, \good{JAVA}, \good{LaTeX}} % Skills
 
 %---------------------------------------------------------
   \cvskill
     {Web} % Category
-    {Django, HTML5, Bootstrap, LESS, SASS} % Skills
+	{\expert{Django}, \avanced{HTML5}, \avanced{Bootstrap}, \good{LESS}} % Skills
 
 %---------------------------------------------------------
   \cvskill
-    {Outlis} % Category
-    {Git, SVN, Buildbot, Github, Gitlab CI/CD} % Skills
+    {Outils} % Category
+	{\expert{Git}, \expert{SVN}, \expert{Buildbot}, \avanced{Github}, \avanced{Gitlab CI/CD}, \avanced{Redmine}} % Skills
 
 %---------------------------------------------------------
   \cvskill
     {Langues} % Category
-    {Français (maternelle), Anglais (courant), Allemand (élémentaire)} % Skills
+	{\expert{Français}, \avanced{Anglais}, \good{Allemand}} % Skills
 
 %---------------------------------------------------------
 \end{cvskills}
