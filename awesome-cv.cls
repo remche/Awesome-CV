@@ -223,9 +223,12 @@
 % For elements of skill
 \newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
-\newcommand{\good}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{awesome-yellow} #1}}
-\newcommand{\avanced}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{awesome-orange} #1}}
-\newcommand{\expert}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{awesome-red} #1}}
+\newcommand*{\good}[1]{{\color{awesome-yellow} #1}}
+\newcommand*{\avanced}[1]{{\color{awesome-orange} #1}}
+\newcommand*{\expert}[1]{{\color{awesome-red} #1}}
+%\newcommand*{\good}[1]{{\colorbox{awesome-yellow} {#1}}}
+%\newcommand*{\avanced}[1]{{\colorbox{awesome-orange} {#1}}}
+%\newcommand*{\expert}[1]{{\colorbox{awesome-red} {#1}}}
 
 % For elements of the cover letter
 \newcommand*{\lettersectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
